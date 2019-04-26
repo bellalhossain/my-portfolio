@@ -1,0 +1,15 @@
+
+{% block content %}
+<h1>স্বাগতম বন্ধু !! </h1>
+ 
+<form action="/user/info/" method="post">
+        {% csrf_token %}
+        তোমার নাম কি ? <input type="text" name="user_name">
+        <input type="submit" value="ঠিক আছে">
+ 
+</form>
+    {% if name %}
+       <p> আসসালামুয়ালাইকুম বন্ধু {{ name }}, তুমি কেমন আছ ?</p>
+    {% endif %}
+ 
+{% endblock %}

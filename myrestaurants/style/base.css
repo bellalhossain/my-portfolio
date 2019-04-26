@@ -1,0 +1,36 @@
+#header
+{
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+background-color: #f00; 
+}
+#content
+{
+    margin-left: 190px;
+    padding: 10px;
+}
+#sidebar
+{
+    float: left;
+    width: 190px;
+}
+#body {
+  --fontColor: red;
+  color: var(--fontColor);
+}
+#footer
+{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+textarea, input[type=number], input[type=url]
+{
+    height: 1.25em;
+    width: 25em;
+}
+top-header { color: #fff; }
+content-text { color: #f00; }
+bg-leftnav { background-color: #fff; }
+bg-column { background-color: #f00; }
